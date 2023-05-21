@@ -112,6 +112,14 @@ button {
 	font-size: 20px;
 }
 
+button:hover {
+	background-color: #b1b1b1;
+}
+
+button:focus {
+	border:1px solid #000;
+}
+
 .result {
 	font-size: 45px;
 }
