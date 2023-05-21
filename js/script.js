@@ -31,5 +31,7 @@ buttonEqual.addEventListener('click', () => {
 })
 
 buttonClear.addEventListener('click', () => {
+    num1.value = null
+    num2.value = null
     result.innerText = `Результат = 0`
 })
